@@ -1,6 +1,15 @@
+# Airport Runway Management System
+### Based on the dining philosophers problem
+
+- An international airport has a limited number of runways (e.g., five runways).
+- Multiple airplanes are arriving and departing. Each plane needs access to the control tower's clearance and one of the available runways.
+- Planes must wait for their turn, request clearance, and then attempt to access a runway to land or take off.
+- Runway allocation must be handled carefully to avoid all planes waiting for runways and never landing, some planes never landing/taking off, or crashes (runway accessed by more than one plane simultaneously). 
+
+
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to the VS Code Java world. Here is a guide to help you get started writing Java code in Visual Studio Code.
 
 ## Folder Structure
 
