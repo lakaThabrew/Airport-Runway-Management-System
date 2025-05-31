@@ -1,6 +1,17 @@
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
+/**
+* Airport Runway Management System
+*
+* This program simulates an airport with multiple airplanes trying to land or take off
+* using a limited number of runways. The system ensures that:
+* - Only one plane can use a runway at a time
+* - Planes don't wait forever (no starvation)
+* - Deadlocks are avoided
+*
+* The solution is based on the Dining Philosophers problem, where runways represent forks
+* and airplanes represent philosophers.
+*/
 public class AirportRunwayManagerSystem 
 {
     public static void main(String[] args) 
